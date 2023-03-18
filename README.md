@@ -14,3 +14,4 @@
 * tp1_1.cpp
 * tp1_1.exe
 A mi parecer el archivo tp1_1.exe no deberia estar en el repositorio
+g) Luego de incluir el nuevo archivo .gitignore y realizarle cambios al archivo tp1_1.cpp, y hacerle el segundo commit, en el repositorio se sige subiendo el ejecutable de tp1_1 a pesar de ya tener ignorados todos los archivos .exe. Esto se debe a que inclui el ejecutable al repositorio antes de excluir los archivos .exe, .gitignore no ignora los archivos ya subidos, por lo que estos se siguen subiendo en cada commit a pesar de tenerlos en el .gitignore, es necesario dejar de restrear los archivos ya ingresados que deseamos ignorar antes de agregar una regla que los ignore
