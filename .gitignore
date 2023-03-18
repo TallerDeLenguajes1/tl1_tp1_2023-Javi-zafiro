@@ -1,2 +1,79 @@
 #ignorar a todos los archivos txt
 *.txt
+# Creado por https://www.toptal.com/developers/gitignore/api/c++,c
+# Editar en https://www.toptal.com/developers/gitignore?templates=c++,c
+
+### C ###
+# requisitos previos
+*.d
+
+# archivos de objetos
+*.o
+*.ko
+*.obj
+*.duende
+
+# Salida del enlazador
+*.ilk
+*.mapa
+*.Exp
+
+# encabezados precompilados
+*.gch
+*.pch
+
+# Bibliotecas
+*.lib
+*.a
+*.la
+*.lo
+
+# Objetos compartidos (incluidas las DLL de Windows)
+*.dll
+*.entonces
+*.entonces.*
+*.dylib
+
+# ejecutables
+*.exe
+*.afuera
+*.aplicación
+*.i*86
+*.x86_64
+*.maleficio
+
+# Archivos de depuración
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Resultados de la compilación del módulo Kernel
+*.modificación*
+*.cmd
+.tmp_versiones/
+módulos.pedir
+Módulo.symvers
+Mkfile.antiguo
+dkms.conf
+
+### C++ ###
+# requisitos previos
+
+# Archivos de objetos compilados
+*.slo
+
+# encabezados precompilados
+
+# Bibliotecas dinámicas compiladas
+
+# Archivos del módulo Fortran
+*.modificación
+*.smod
+
+# Bibliotecas estáticas compiladas
+*.lai
+
+# ejecutables
+
+# Fin de https://www.toptal.com/developers/gitignore/api/c++,c
